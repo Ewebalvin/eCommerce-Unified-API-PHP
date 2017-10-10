@@ -1,0 +1,20 @@
+{
+  "name": "Ewebalvin/eCommerce-Unified-API-PHP",
+  "description": "Unified PHP SDK for Moneris",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Alvin Z",
+      "email": "ewebalvin@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "classmap": ["mpgClasses.php"]
+  },
+  "minimum-stability": "stable"
+}
